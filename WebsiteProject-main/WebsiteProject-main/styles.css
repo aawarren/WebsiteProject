@@ -1,0 +1,73 @@
+h1 {
+  margin: 0;
+}
+
+.big-heading {
+  font-family: Verdana;
+}
+
+.section-heading {
+  /* Add your own font here */
+  font-family: Verdana;
+}
+
+.nav__list {
+  font-family: Verdana;
+}
+
+.nav__list_item {
+  font-family: Verdana;
+}
+
+.page {
+  font-family: Verdana;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  background-color: whitesmoke;
+}
+
+
+.page__header {
+  background-color: aqua;
+  font-family: Verdana;
+
+}
+.page__content {
+  background-color: whitesmoke;
+  font-family: Verdana;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: stretch;
+
+}
+
+.left-content {
+  background-color:whitesmoke;
+  width: 25%;
+}
+
+.right-content {
+  background-color: whitesmoke;
+  width: 25%;
+}
+
+.main-content {
+  background-color:  whitesmoke;
+  font-family: Verdana;
+  flex-grow: 2;
+  width: 50%;
+}
+
+.main-content__section {
+  background-color:whitesmoke;
+  font-family: Verdana;
+}
+
+ol li{
+  list-style-type : none;
+}
